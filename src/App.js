@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import { HashRouter as Router, Route, Routes } from 'react-router-dom';
 import VotingListForm from './valid';
 import StatusPage from './StatusPage';
 import { AppProvider } from './AppContext'; // Import the AppProvider
